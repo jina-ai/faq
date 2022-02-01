@@ -78,7 +78,7 @@ You can reduce the size of your indexed data by projecting the embedding to a sm
 
 ## How can I fetch pre-built Executors from Jina Hub?
 
-We provide three ways of using pre-build Executors from the Jina Hub. The first way is using the Executor, the second way is used in a Flow via Docker, and the third way is used in a Flow via the source code. To see the code snippets and understand the syntax, please visit https://docs.jina.ai/advanced/hub/use-hub-executor/.
+We provide three ways of using pre-build Executors from the Jina Hub. The first way is using the Executor, the second way is used in a Flow via Docker, and the third way is used in a Flow via the source code. [Visit here to see the code snippets and understand the syntax](https://docs.jina.ai/advanced/hub/use-hub-executor/).
 
 
 ## How to upload my Executor on Jina Hub?
