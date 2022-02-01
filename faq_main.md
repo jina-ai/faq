@@ -136,7 +136,7 @@ Running Jina in Jupyter notebook and Python are the same. So, you can use Execut
 
 - Jina supports user-provided ML models, but it also supports community-integrated models;
 
-- Kendra has a user feedback loop integrated to do incremental learning. I guess it's possible to [add this to Jina](with https://github.com/jina-ai/jina-hub/tree/master/rankers/LightGBMRanker probably, but it's not integrated at this stage).
+- Kendra has a user feedback loop integrated to do incremental learning. I guess it's possible to [add this to Jina with](https://github.com/jina-ai/jina-hub/tree/master/rankers/LightGBMRanker) probably, but it's not integrated at this stage.
 
 (( Edit by Jina Team: this ranker can help incremental learning. But using a traditional machine learning approach. We could leverage Finetuner to perform feedback collection and model improvement.))
 
