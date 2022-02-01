@@ -87,7 +87,7 @@ Jina Hub allows users to publish and share their Executors.
 
 ## How do I share executor with my colleague sitting in another part of the world?
 
-"Executors can be shared by pushing them onto [Jina Hub.](https://hub.jina.ai/) 
+Executors can be shared by pushing them onto [Jina Hub.](https://hub.jina.ai/) 
 
 You can choose to share your Executors either publicly or privately.  
 
@@ -95,7 +95,7 @@ By default, Executors are public, but you can make them private by a `secret`.
 
 Only people having the `secret` can access the private Executors. If no 
 
---public or --private argument is provided, then it is public by default. "
+`--public` or `--private` argument is provided, then it is public by default.
 
 
 ## How can I remove Executor pushed to Jina Hub?
@@ -109,7 +109,7 @@ It can be because of a connection issue (VPN), and reloading should fix it. Also
 
 If using `jinahub://`, make sure install_requirements=True is added to 
 
-.add(uses='jinahub://Executor, install_requirements=True). If using jinahub+docker// make sure sufficient docker resources are allocated. 
+````.add(uses='jinahub://Executor, install_requirements=True)````. If using `jinahub+docker//` make sure sufficient docker resources are allocated. 
 
 
 ## How can I use Jina Hub Executors in Jupyter Notebook?
@@ -120,7 +120,7 @@ Running Jina in Jupyter notebook and Python are the same. So, you can use Execut
 
 ## ... AWS Kendra
 
-- AWS Kendra is an AWS-service-only, and so it has a solid lock-in to the ""cloud only"" AWS infrastructure. You have a free-tier version of it, but it's limited to 3GB of data, so you can't really ""play with it"" from a docker image and go from there; Kendra has stricter limitations. Enterprise version is limited to 5 indexes and 500.000 documents or 150GB of text (per node?); You can run Jina on AWS on the other side, and it's Open Source.
+- AWS Kendra is an AWS-service-only, and so it has a solid lock-in to the "cloud only" AWS infrastructure. You have a free-tier version of it, but it's limited to 3GB of data, so you can't really "play with it" from a docker image and go from there; Kendra has stricter limitations. Enterprise version is limited to 5 indexes and 500.000 documents or 150GB of text (per node?); You can run Jina on AWS on the other side, and it's Open Source.
 
 - Kendra seems to cover only text search (NLP), whereas Jina also covers image or media search (multi-modal).
 
