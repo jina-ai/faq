@@ -87,7 +87,7 @@ Jina Hub allows users to publish and share their Executors.
 
 ## How do I share executor with my colleague sitting in another part of the world?
 
-"Executors can be shared by pushing them onto [Jina Hub.](https://hub.jina.ai/). 
+"Executors can be shared by pushing them onto [Jina Hub.](https://hub.jina.ai/) 
 
 You can choose to share your Executors either publicly or privately.  
 
