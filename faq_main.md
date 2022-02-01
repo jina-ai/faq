@@ -7,7 +7,7 @@ Jina can be installed primarily in three ways,
 
 via PyPI: `pip install -U jina` , via Docker: `docker run jinaai/jina:latest`, via conda: `conda install jina -c conda-forge`. 
 
-For more details about installing Jina, [visit our Docs](https://docs.jina.ai/get-started/install/)
+For more details about installing Jina, [visit our Docs.](https://docs.jina.ai/get-started/install/)
 
 ## Is Jina compatible with Windows?
 
@@ -32,7 +32,7 @@ Think of any great search engine you have ever used like Google. Even Google use
 
 We, as developers, sometimes want to create intelligent search systems, so neural search comes into the picture. 
 
-[Read more about neural search](https://docs.jina.ai/get-started/neural-search)
+[Read more about neural search.](https://docs.jina.ai/get-started/neural-search)
 
 ## What are the pre-requisites of getting started with Jina?
 
@@ -44,11 +44,11 @@ By running Jina's quick demos. These examples are easy to understand and help us
 
 ## Where can I find pre-built examples made with Jina?
 
-[We're always a link away](http://examples.jina.ai/)
+[We're always a link away.](http://examples.jina.ai/)
 
 ## What are the basic concepts I need to know to build a simple working application?
 
-You need to know three simple concepts to build a simple working application. They are Document, Executors, and Flow. Document is the most basic data type in Jina. Executors allow you to do tasks on the Document. And Flow is used for tying executors into a pipeline to perform more significant tasks. You can learn all about them and [see examples here](https://docs.jina.ai/fundamentals/concepts/)
+You need to know three simple concepts to build a simple working application. They are Document, Executors, and Flow. Document is the most basic data type in Jina. Executors allow you to do tasks on the Document. And Flow is used for tying executors into a pipeline to perform more significant tasks. You can learn all about them and [see examples here.](https://docs.jina.ai/fundamentals/concepts/)
 
 ## Is the neural search system built with Jina compatible with the traditional search system?
 
@@ -87,7 +87,7 @@ Jina Hub allows users to publish and share their Executors.
 
 ## How do I share executor with my colleague sitting in another part of the world?
 
-"Executors can be shared by pushing them onto [Jina Hub](https://hub.jina.ai/). 
+"Executors can be shared by pushing them onto [Jina Hub.](https://hub.jina.ai/). 
 
 You can choose to share your Executors either publicly or privately.  
 
