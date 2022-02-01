@@ -35,34 +35,6 @@ We as developers, sometimes want to create brilliant search systems and hence, n
 
 More about neural search : https://docs.jina.ai/get-started/neural-search
 
-## What's the difference between Jina and AWS Kendra?
-
-- AWS Kendra is an AWS-service-only and so it has a strong lock-in to the ""cloud only"" AWS infrastructure. You have a free-tier version of it but it's limited to 3GB of data so you can't really ""play with it"" from a docker image and go from there; Kendra has stricter limitations. Enterprise version is limited to 5 indexes and 500.000 documents or 150GB of text (per node?); You can obviously run Jina on AWS on the other side, and it's Open Source.
-
-- Kendra seems to cover only text search (NLP), where Jina covers also image or media search (multi-modal).
-
-- Jina is an end-to-end search system. You can use Jina to extract semantic embedding, store them, search them, and return them to a user. Kendra doesn't seem to cover the whole pipeline. For example, I can't see any front end interface like Jina Box;
-
-- Both Kendra and Jina use distributed node architecture. But the Kendra granularity of settings (user access, security management, etc) coming with the whole AWS architecture is obviously more advanced at this stage than Jina;
-
-- In Jina, you can distribute various aspects of your training pipeline on other machines. This would demand an other pipeline of AWS services (sagemaker, etc) on the Amazon platform. Note: you could also add a GPU for all your embedding creation on Jina;
-
-- With Jina, you can use Jina Hub. A community collection of pre-build custom apps. You can plug and play with some of the latest AI research here. Kendra has only third-party connectors (here: https://aws.amazon.com/kendra/connectors/) but not customizable packages;
-
-- Kendra comes with 14 custom pretrained models. Jina has its own hub community platform and integrates with HuggingFace directly. With just one line of code in your YAML file, you can pull any of their pre-trained models. This is a huge benefit in terms of customizations and possibilities. The latest research from Facebook/Google is added daily to hugging face community system. I don't know how you could do this with Kendra;
-
-- Jina supports user-provided ML models but it also support community-integrated models;
-
-- Kendra has a user feedback loop integrated to do incremental learning. I guess it's possible to add this to Jina (with https://github.com/jina-ai/jina-hub/tree/master/rankers/LightGBMRanker probably but it's not integrated at this stage).
-
-(( Edit by Jina Team: this ranker is able to help incremental learning. But using a traditional machine learning approach. In the future, we could leverage Finetuner to perform feedback collection and model improvement.))
-
-# Jina vs... 
-
-## How does Jina compare to other search engines? ( such as Vertex.ai)
-
-One major difference is that vespa is built based on their own vector database while Jina as a framework offers the flexibility to switch between different options.
-
 ## What are the pre-requisites of getting started with Jina?
 
 Intermediate Python and a working laptop. While previous knowledge of ML and AI is a plus, it is not a required attribute. We want Jina to be of use to even the newest people in this field and that's why we made the implementation as simple as possible for developers who want to make good search systems.
@@ -145,3 +117,35 @@ If using `jinahub://` , make sure install_requirements=True is added to
 ## How can I use Jina Hub Executors in Jupyter Notebook?
 
 Running Jina in Jupyter notebook and Python are basically the same. So, you can use Executors in the notebook the same way you would in your local system.
+
+# Jina vs... 
+
+## What's the difference between Jina and AWS Kendra?
+
+- AWS Kendra is an AWS-service-only and so it has a strong lock-in to the ""cloud only"" AWS infrastructure. You have a free-tier version of it but it's limited to 3GB of data so you can't really ""play with it"" from a docker image and go from there; Kendra has stricter limitations. Enterprise version is limited to 5 indexes and 500.000 documents or 150GB of text (per node?); You can obviously run Jina on AWS on the other side, and it's Open Source.
+
+- Kendra seems to cover only text search (NLP), where Jina covers also image or media search (multi-modal).
+
+- Jina is an end-to-end search system. You can use Jina to extract semantic embedding, store them, search them, and return them to a user. Kendra doesn't seem to cover the whole pipeline. For example, I can't see any front end interface like Jina Box;
+
+- Both Kendra and Jina use distributed node architecture. But the Kendra granularity of settings (user access, security management, etc) coming with the whole AWS architecture is obviously more advanced at this stage than Jina;
+
+- In Jina, you can distribute various aspects of your training pipeline on other machines. This would demand an other pipeline of AWS services (sagemaker, etc) on the Amazon platform. Note: you could also add a GPU for all your embedding creation on Jina;
+
+- With Jina, you can use Jina Hub. A community collection of pre-build custom apps. You can plug and play with some of the latest AI research here. Kendra has only third-party connectors (here: https://aws.amazon.com/kendra/connectors/) but not customizable packages;
+
+- Kendra comes with 14 custom pretrained models. Jina has its own hub community platform and integrates with HuggingFace directly. With just one line of code in your YAML file, you can pull any of their pre-trained models. This is a huge benefit in terms of customizations and possibilities. The latest research from Facebook/Google is added daily to hugging face community system. I don't know how you could do this with Kendra;
+
+- Jina supports user-provided ML models but it also support community-integrated models;
+
+- Kendra has a user feedback loop integrated to do incremental learning. I guess it's possible to add this to Jina (with https://github.com/jina-ai/jina-hub/tree/master/rankers/LightGBMRanker probably but it's not integrated at this stage).
+
+(( Edit by Jina Team: this ranker is able to help incremental learning. But using a traditional machine learning approach. In the future, we could leverage Finetuner to perform feedback collection and model improvement.))
+
+
+
+## How does Jina compare to other search engines? ( such as Vertex.ai)
+
+One major difference is that vespa is built based on their own vector database while Jina as a framework offers the flexibility to switch between different options.
+
+
