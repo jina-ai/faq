@@ -7,8 +7,7 @@ Jina can be installed primarily in three ways,
 
 via PyPI: `pip install -U jina` , via Docker: `docker run jinaai/jina:latest`, via conda: `conda install jina -c conda-forge`. 
 
-For more details about installing Jina, please see this page: https://docs.jina.ai/get-started/install/.
-
+For more details about installing Jina, [visit our Docs](https://docs.jina.ai/get-started/install/)
 
 ## Is Jina compatible with Windows?
 
@@ -33,7 +32,7 @@ Think of any great search engine you have ever used like Google. Even Google use
 
 We, as developers, sometimes want to create intelligent search systems, so neural search comes into the picture. 
 
-More about neural search: https://docs.jina.ai/get-started/neural-search
+[Read more about neural search](https://docs.jina.ai/get-started/neural-search)
 
 ## What are the pre-requisites of getting started with Jina?
 
@@ -41,15 +40,15 @@ Intermediate Python and a working laptop. While previous knowledge of ML and AI 
 
 ## What is the quickest way to experience the power of Jina?
 
-By running Jina's quick demos. These examples are easy to understand and help users to experience the power of Jina. Link to the examples: https://docs.jina.ai/get-started/hello-world/. For users who have difficulties running the examples, please feel free to message us on #support in our Slack channel!
+By running Jina's quick demos. These examples are easy to understand and help users to experience the power of Jina. [Try our example](https://docs.jina.ai/get-started/hello-world/). For users who have difficulties running the examples, please feel free to message us on #support in our Slack channel!
 
 ## Where can I find pre-built examples made with Jina?
 
-At: http://examples.jina.ai/
+[We're always a link away](http://examples.jina.ai/)
 
 ## What are the basic concepts I need to know to build a simple working application?
 
-You need to know three simple concepts to build a simple working application. They are Document, Executors, and Flow. Document is the most basic data type in Jina. Executors allow you to do tasks on the Document. And Flow is used for tying executors into a pipeline to perform more significant tasks. You can learn all about them and see examples here: https://docs.jina.ai/fundamentals/concepts/.
+You need to know three simple concepts to build a simple working application. They are Document, Executors, and Flow. Document is the most basic data type in Jina. Executors allow you to do tasks on the Document. And Flow is used for tying executors into a pipeline to perform more significant tasks. You can learn all about them and [see examples here](https://docs.jina.ai/fundamentals/concepts/)
 
 ## Is the neural search system built with Jina compatible with the traditional search system?
 
@@ -88,7 +87,7 @@ Jina Hub allows users to publish and share their Executors.
 
 ## How do I share executor with my colleague sitting in another part of the world?
 
-"Executors can be shared by pushing them onto Jina Hub (https://hub.jina.ai/). 
+"Executors can be shared by pushing them onto [Jina Hub](https://hub.jina.ai/). 
 
 You can choose to share your Executors either publicly or privately.  
 
@@ -131,13 +130,13 @@ Running Jina in Jupyter notebook and Python are the same. So, you can use Execut
 
 - In Jina, you can distribute various aspects of your training pipeline on other machines. This would demand another pipeline of AWS services (Sagemaker, etc.) on the Amazon platform. Note: you could also add a GPU for all your embedding creation on Jina;
 
-- With Jina, you can use Jina Hub. A community collection of pre-build custom apps. You can plug and play with some of the latest AI research here. Kendra has only third-party connectors (here: https://aws.amazon.com/kendra/connectors/) but not customizable packages;
+- With Jina, you can use Jina Hub. A community collection of pre-build custom apps. You can plug and play with some of the latest AI research here. Kendra has only [third-party connectors](https://aws.amazon.com/kendra/connectors/) but not customizable packages;
 
 - Kendra comes with 14 custom pre-trained models. Jina has its hub community platform and integrates with HuggingFace directly. With just one line of code in your YAML file, you can pull any of their pre-trained models. This is a huge benefit in terms of customizations and possibilities. The latest research from Facebook/Google is added daily to the HuggingFace community system. I don't know how you could do this with Kendra;
 
 - Jina supports user-provided ML models, but it also supports community-integrated models;
 
-- Kendra has a user feedback loop integrated to do incremental learning. I guess it's possible to add this to Jina (with https://github.com/jina-ai/jina-hub/tree/master/rankers/LightGBMRanker probably, but it's not integrated at this stage).
+- Kendra has a user feedback loop integrated to do incremental learning. I guess it's possible to [add this to Jina](with https://github.com/jina-ai/jina-hub/tree/master/rankers/LightGBMRanker probably, but it's not integrated at this stage).
 
 (( Edit by Jina Team: this ranker can help incremental learning. But using a traditional machine learning approach. We could leverage Finetuner to perform feedback collection and model improvement.))
 
