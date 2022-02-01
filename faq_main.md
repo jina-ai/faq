@@ -120,7 +120,7 @@ Running Jina in Jupyter notebook and Python are basically the same. So, you can 
 
 # Jina vs... 
 
-## What's the difference between Jina and AWS Kendra?
+## ... AWS Kendra
 
 - AWS Kendra is an AWS-service-only and so it has a strong lock-in to the ""cloud only"" AWS infrastructure. You have a free-tier version of it but it's limited to 3GB of data so you can't really ""play with it"" from a docker image and go from there; Kendra has stricter limitations. Enterprise version is limited to 5 indexes and 500.000 documents or 150GB of text (per node?); You can obviously run Jina on AWS on the other side, and it's Open Source.
 
@@ -144,7 +144,7 @@ Running Jina in Jupyter notebook and Python are basically the same. So, you can 
 
 
 
-## How does Jina compare to other search engines? ( such as Vertex.ai)
+## ... Vertex.ai
 
 One major difference is that vespa is built based on their own vector database while Jina as a framework offers the flexibility to switch between different options.
 
