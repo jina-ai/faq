@@ -1,12 +1,4 @@
-## What is neural search and why is it important for me?
-
-Neural search leverages the power of deep neural networks to build search systems. 
-
-Think of any great search engine you have ever used like Google. Even Google uses AI and neural networks to make its search effective. 
-
-We as developers, sometimes want to create brilliant search systems and hence, neural search comes into the picture. 
-
-More about neural search : https://docs.jina.ai/get-started/neural-search
+# Installation
 
 
 ## How do I Install Jina?
@@ -26,6 +18,22 @@ We recommend installing WSL and then running Jina for the benefit of running a L
 
 If there is scope for options, please try using a Virtual Machine for Ubuntu on Windows to experience minimum difficulties.
 
+## Jina installation causing a problem on Macbook?
+
+Jina installation on Macbook can be because of the M1 chip. Jina runs smoothly on Macbooks with Intel chip but due to recent advancements in processors, the M1 is relatively very new and hence, can throw some problems. To fix this, please follow the steps written in this blog [TO BE BACKLINKED]
+
+
+# Technical Concepts
+
+## What is neural search and why is it important for me?
+
+Neural search leverages the power of deep neural networks to build search systems. 
+
+Think of any great search engine you have ever used like Google. Even Google uses AI and neural networks to make its search effective. 
+
+We as developers, sometimes want to create brilliant search systems and hence, neural search comes into the picture. 
+
+More about neural search : https://docs.jina.ai/get-started/neural-search
 
 ## What's the difference between Jina and AWS Kendra?
 
@@ -49,45 +57,27 @@ If there is scope for options, please try using a Virtual Machine for Ubuntu on 
 
 (( Edit by Jina Team: this ranker is able to help incremental learning. But using a traditional machine learning approach. In the future, we could leverage Finetuner to perform feedback collection and model improvement.))
 
+# Jina vs... 
 
 ## How does Jina compare to other search engines? ( such as Vertex.ai)
 
 One major difference is that vespa is built based on their own vector database while Jina as a framework offers the flexibility to switch between different options.
 
-
-## Jina installation causing a problem on Macbook?
-
-Jina installation on Macbook can be because of the M1 chip. Jina runs smoothly on Macbooks with Intel chip but due to recent advancements in processors, the M1 is relatively very new and hence, can throw some problems. To fix this, please follow the steps written in this blog [TO BE BACKLINKED]
-
-
 ## What are the pre-requisites of getting started with Jina?
 
 Intermediate Python and a working laptop. While previous knowledge of ML and AI is a plus, it is not a required attribute. We want Jina to be of use to even the newest people in this field and that's why we made the implementation as simple as possible for developers who want to make good search systems.
-
 
 ## What is the quickest way to experience the power of Jina?
 
 By running Jina's quick demos. These examples are easy to understand and help users to experience the power of Jina. Link to the examples: https://docs.jina.ai/get-started/hello-world/. For users who have difficulties running the examples, please feel free to message us on #support in our Slack channel!
 
-
 ## Where can I find pre-built examples made with Jina?
 
 At: http://examples.jina.ai/
 
-What are the basic concepts I need to know to build a simple working application?
+## What are the basic concepts I need to know to build a simple working application?
 
 There are 3 simple concepts you need to know to build a simple working application. They are Document, Executors, and Flow. Document is the most basic data type in Jina. Executors allow you to do tasks on the Document. And, Flow is used for tying executors into a pipeline to perform bigger tasks. You can learn all about them and see examples here: https://docs.jina.ai/fundamentals/concepts/
-
-
-## How can I fetch pre-built Executors from Jina Hub?
-
-We provide 3 ways of using pre-build Executors from the Jina Hub. The first way is using the Executor as it is, the second way is use in a Flow via Docker and the third way is use in a Flow via the source code. To see the code snippets and understand the syntax, please visit: https://docs.jina.ai/advanced/hub/use-hub-executor/
-
-
-## How to upload my Executor on Jina Hub?
-
-Jina Hub allows users to publish and share their Executors.
-
 
 ## Is the neural search system built with Jina compatible with the traditional search system?
 
@@ -114,6 +104,16 @@ Of course, some customers use Jina to build a search system for the company's in
 
 You can reduce the size of your indexed data by projecting the embedding to a smaller dimensionality. Using pre-trained ResNet results in features represented as 2048d (if you’re using a fully connected layer as an embedding layer). What you can do is to further encode it into another dimensionality, such as 512. You can achieve this with Finetuner by adopting a multi-layer perceptron on top of your embedding model. For instance, in this tutorial, we attached a SimpleMLP on top of the embedding model and the final embedding has been encoded into 1024d, 2 times smaller than the pre-trained embedding. You can do it in 128/256/512 or any compact representation. This should significantly reduce your embedding size.
 
+# Executors
+
+## How can I fetch pre-built Executors from Jina Hub?
+
+We provide 3 ways of using pre-build Executors from the Jina Hub. The first way is using the Executor as it is, the second way is use in a Flow via Docker and the third way is use in a Flow via the source code. To see the code snippets and understand the syntax, please visit: https://docs.jina.ai/advanced/hub/use-hub-executor/
+
+
+## How to upload my Executor on Jina Hub?
+
+Jina Hub allows users to publish and share their Executors.
 
 ## How do I share executor with my colleague sitting in another part of the world?
 
