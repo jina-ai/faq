@@ -107,7 +107,7 @@ Once published to Jina Hub, Executors cannot be deleted or removed since Jina Hu
 
 It can be because of a connection issue (VPN), and reloading should fix it. Also,
 
-If using `jinahub://`, make sure install_requirements=True is added to 
+If using `jinahub://`, make sure `install_requirements=True` is added to 
 
 ````.add(uses='jinahub://Executor, install_requirements=True)````. If using `jinahub+docker//` make sure sufficient docker resources are allocated. 
 
