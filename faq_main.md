@@ -16,9 +16,9 @@
       TL;DR: [**Jina AI**](https://jina.ai/) is the organization, [**Jina**](https://docs.jina.ai) is the open source neural search framework. 
 
       [Jina AI](https://jina.ai/) is a neural search organization that delivers SOTA neural search solutions, namely:
-      - [Jina](https://docs.jina.ai) : a neural search framework that empowers anyone to build SOTA and scalable deep learning search applications in minutes
-      - [Finetuner](https://finetuner.jina.ai) : allows you to tune the weights of any deep neural network for better embeddings on search tasks
-      - [DocArray](https://docarray.jina.ai) : a Python library for nested, unstructured data in transit, including text, image, audio, video, 3D mesh, etc
+      - [Jina](https://docs.jina.ai): a neural search framework that empowers anyone to build SOTA and scalable deep learning search applications in minutes
+      - [Finetuner](https://finetuner.jina.ai): allows you to tune the weights of any deep neural network for better embeddings on search tasks
+      - [DocArray](https://docarray.jina.ai): a Python library for nested, unstructured data in transit, including text, image, audio, video, 3D mesh, etc
 
 ## Installation
  - ### How do I Install Jina?
@@ -37,23 +37,23 @@
 
  - ### Jina installation causing a problem on Macbook?
 
-   Jina's installation on Macbook can be because of the M1 chip. Jina runs smoothly on Macbooks with Intel chips, but due to recent advancements in processors, the M1 is relatively new and can throw some problems. To fix this, please follow the steps written [in this blog.](https://docs.jina.ai/get-started/install/troubleshooting/#on-mac-m1)
+   Jina's installation on Macbook can be because of the M1 chip. Jina runs smoothly on Macbooks with Intel chips, but due to recent advancements in processors, the M1 is relatively new and can throw some problems. Please follow the steps written [in this blog.](https://docs.jina.ai/get-started/install/troubleshooting/#on-mac-m1)
 
 ## Prerequisites
 
- - ### What are the pre-requisites of getting started with Jina?/ 
+ - ### What are the prerequisites of getting started with Jina?/ 
    ### Can I use Jina if I only know Javascript/language X? / 
-   ### Can a non tech background fresher without any coding experience learn Jina?
+   ### Can a non-tech background fresher without any coding experience learn Jina?
 
    Prerequisites: Intermediate Python and a working laptop. While previous knowledge of ML and AI is a plus, it is not a required attribute. We want Jina to be of use to even the newest people in this field, and that's why the implementation is as simple as possible for developers who want to make sound search systems.
 
 ## Resources
- - ### What are some of the good resources for a beginner to learn about Jina?
+ - ### What are some good resources for a beginner to learn about Jina?
 
    - Try our [bootcamp](https://learn.jina.ai/).
    - Go through our [detailed docs](https://docs.jina.ai).
    - Plus, we also release some cool stuff on our [blog](https://jina.ai/blog).
-   - Also keep an eye out for our workshops and events which we announce on our [Slack community](https://slack.jina.ai).
+   - Also, keep an eye out for our workshops and events, which we announce on our [Slack community](https://slack.jina.ai).
 
 # :books: Technical Concepts
 
@@ -78,16 +78,16 @@
  - ### Is the neural search system built with Jina compatible with the traditional search system?
 
    You can fully integrate a traditional search system with Jina. 
-As in the DocQA example, the first step is pulling candidates and finding out all similar passages by vector indexing. The second step is to use a more computationally intensive deep learning model to find the needed answers from the passages.
+As in the DocQA example, the first step is pulling candidates and finding out similar passages by vector indexing. The second step is to use a more computationally intensive deep learning model to find the needed answers from the passages.
 
-   When doing the recall in the first step, you can use the method based on vector index or TF-IDF or bm25, so it is entirely possible to use the traditional inverted index to recall in Jina.
+   When doing the recall in the first step, you can use the method based on vector index or TF-IDF or bm25, so it is entirely possible to use the traditional inverted index to recall Jina.
 
 
  - ### If I want to build a neural search system with Jina, how much computational resources are needed?
 
    The resources required to build a neural search system with Jina depend on the business requirements, such as data volume, stability requirements, required response time, etc.
 
-   For a single data type, if the data volume is within one million, the CPU can cope with it; if the data volume is relatively large - such as retrieving hundreds of millions of videos and requiring millisecond-level feedback - it is necessary to use GPU.
+  The CPU can cope with lesser data volume( up to one million) for a single data type. It is necessary to use GPU for applications with larger data volume - such as retrieving hundreds of millions of videos and requiring millisecond-level feedback.
 
  - ### Can we use Jina to search specific content in PDF?
 
@@ -95,7 +95,7 @@ As in the DocQA example, the first step is pulling candidates and finding out al
 
  - ### My indexed data size became too big. How can I reduce the size of indexing data?
 
-   You can reduce the size of your indexed data by projecting the embedding to a smaller dimensionality, using pre-trained ResNet results in features represented as 2048d (if you’re using a fully connected layer as an embedding layer). You can further encode it into another dimensionality, such as 512. You can achieve this with Finetuner by adopting a multi-layer perceptron on top of your embedding model. For instance, in this tutorial, we attached a SimpleMLP on top of the embedding model, and the final embedding has been encoded into 1024d, two times smaller than the pre-trained embedding. You can do it in 128/256/512 or any compact representation. This should significantly reduce your embedding size.
+   You can reduce the size of your indexed data by projecting the embedding to a smaller dimensionality, using pre-trained ResNet results in features represented as 2048d (if you're using a fully connected layer as an embedding layer). You can further encode it into another dimensionality, such as 512. You can achieve this with Finetuner by adopting a multi-layer perceptron on top of your embedding model. For instance, in this tutorial, we attached a SimpleMLP on top of the embedding model, and the final embedding has been encoded into 1024d, two times smaller than the pre-trained embedding. You can do it in 128/256/512 or any compact representation. This should significantly reduce your embedding size.
 
 # :gear: Executors
 
@@ -108,10 +108,10 @@ As in the DocQA example, the first step is pulling candidates and finding out al
 
    Jina Hub allows users to publish and share their Executors.
 
- - ###  How do I share executor with my colleague sitting in another part of the world?
+ - ###  How do I share Executor with my colleague sitting in another part of the world?
 
    Executors can be shared by pushing them onto [Jina Hub.](https://hub.jina.ai/). You can choose to share your Executors either publicly or privately. 
-   By default, Executors are public, but you can make them private by a `secret`. Only people having the `secret` can access the private Executors. If no `--public` or `--private` argument is provided, then it is public by default.
+   By default, Executors are public, but you can make them private by a `secret`. Only people having the `secret` can access the private Executors. If no `--public` or `--private` argument is provided, it is public by default.
 
  - ### How can I remove Executor pushed to Jina Hub?
    Once published to Jina Hub, Executors cannot be deleted or removed since Jina Hub is a shared space.
@@ -119,7 +119,7 @@ As in the DocQA example, the first step is pulling candidates and finding out al
  - ### Jina Hub Executors are failing to load. What should I do?
    It can be because of a connection issue (VPN), and reloading should fix it. 
    If using `jinahub://`, make sure `install_requirements=True` is added to ````.add(uses='jinahub://Executor, install_requirements=True)````. 
-   If using `jinahub+docker//` make sure sufficient docker resources are allocated. 
+   If using `jinahub+docker//`, make sure sufficient docker resources are allocated. 
 
  - ###  How can I use Jina Hub Executors in Jupyter Notebook?
    Running Jina in Jupyter notebook and Python are the same. So, you can use Executors in the notebook the same way you would in your local system.
@@ -128,7 +128,7 @@ As in the DocQA example, the first step is pulling candidates and finding out al
 
 ## ... AWS Kendra
 
-- AWS Kendra is an AWS-service-only, and so it has a solid lock-in to the "cloud only" AWS infrastructure. You have a free-tier version of it, but it's limited to 3GB of data, so you can't really "play with it" from a docker image and go from there; Kendra has stricter limitations. Enterprise version is limited to 5 indexes and 500.000 documents or 150GB of text (per node?); You can run Jina on AWS on the other side, and it's Open Source.
+- AWS Kendra is an AWS-service-only, and so it has a solid lock-in to the "cloud-only" AWS infrastructure. You have a free-tier version, but it's limited to 3GB of data, so you can't really "play with it" from a docker image and go from there; Kendra has stricter limitations. Enterprise version is limited to 5 indexes and 500.000 documents or 150GB of text (per node?); You can run Jina on AWS on the other side, and it's Open Source.
 
 - Kendra seems to cover only text search (NLP), whereas Jina also covers image or media search (multi-modal).
 
@@ -166,19 +166,19 @@ We invite all readers to answer some unanswered questions on our [FAQ sheet:](ht
 
 - #### What's the difference between shards and replicas? When should I use each?
 - #### What database backends does Jina support?
-- #### How to run the local server in colab？
+- #### How to run the local server in Colab？
 - #### How to return some data for a flow, and the data is Irrelevant with any input docs?
-- #### If I cascade several Executors in a flow, then which endpoint will use in these Executors for a request posting to a specifial gateway?
+- #### If I cascade several Executors in a flow, then which endpoint will use in these Executors for a request posting to a specific gateway?
 - #### I noticed Executors only receive docs of type DocumentArray as the first parameter. Will subclasses be supported in the future?
 - #### What are some alternatives to embed_feature_hashing that we could use [in this example?](https://docarray.jina.ai/datatypes/text/#simple-text-matching-via-feature-hashing)
-- #### On fashion-Mnist dataset, is it possible to add additional cloth images [on this repository](https://github.com/zalandoresearch/fashion-mnist)? What would happen if users delete some clothes on fashion-Mnist dataset?
+- #### On fashion-MNIST dataset, is it possible to add additional cloth images [on this repository](https://github.com/zalandoresearch/fashion-mnist)? What would happen if users deleted some clothes on the fashion-MNIST dataset?
 - #### Is Jina going to participate in GSoC? 
 
 # :confused: What if My Question Isn't Listed Here?
 
-  We see you've chosen to take [the road less travelled](https://www.poetryfoundation.org/poems/44272/the-road-not-taken). We're here to help you on your way on!
+  We see you've chosen to take [the road less travelled](https://www.poetryfoundation.org/poems/44272/the-road-not-taken). We're here to help you on your way!
   - First, check out our [docs](https://www.docs.jina.ai) to see if your query is answered by ~~the wisdom of the Prophecy~~ our documentation.
-  - If you still don't find what you're looking for, please list your question on our [FAQ sheet](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
+  - If you still don't find what you're looking for, please list your question on our [FAQ Sheet](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
 
 # :sparkling_heart: Thank You 
 
