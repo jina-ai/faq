@@ -16,9 +16,9 @@
       TL;DR: [**Jina AI**](https://jina.ai/) is the organization, [**Jina**](https://docs.jina.ai) is the open source neural search framework. 
 
       [Jina AI](https://jina.ai/) is a neural search organization that delivers SOTA neural search solutions, namely:
-      - [Jina](https://docs.jina.ai): a neural search framework that empowers anyone to build SOTA and scalable deep learning search applications in minutes
-      - [Finetuner](https://finetuner.jina.ai): allows you to tune the weights of any deep neural network for better embeddings on search tasks
-      - [DocArray](https://docarray.jina.ai): a Python library for nested, unstructured data in transit, including text, image, audio, video, 3D mesh, etc
+      - [Jina](https://docs.jina.ai): a neural search framework that empowers anyone to build SOTA and scalable deep learning search applications in minutes.
+      - [Finetuner](https://finetuner.jina.ai): allows you to tune the weights of any deep neural network for better embeddings on search tasks.
+      - [DocArray](https://docarray.jina.ai): a Python library for nested, unstructured data in transit, including text, image, audio, video, 3D mesh, etc.
 
 ## Installation
  - ### How do I Install Jina?
@@ -26,7 +26,7 @@
    Jina can be installed primarily in three ways:
    - via PyPI: `pip install -U jina` 
    - via Docker: `docker run jinaai/jina:latest`
-   - via conda: `conda install jina -c conda-forge`. 
+   - via conda: `conda install jina -c conda-forge` 
 
    For more details about installing Jina, [visit our Docs.](https://docs.jina.ai/get-started/install/)
 
