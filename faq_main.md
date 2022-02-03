@@ -19,7 +19,7 @@ If there is scope for options, please try using a Virtual Machine for Ubuntu on 
 
 ## Jina installation causing a problem on Macbook?
 
-Jina's installation on Macbook can be because of the M1 chip. Jina runs smoothly on Macbooks with Intel chips, but due to recent advancements in processors, the M1 is relatively new and can throw some problems. To fix this, please follow the steps written in this blog [TO BE BACKLINKED]
+Jina's installation on Macbook can be because of the M1 chip. Jina runs smoothly on Macbooks with Intel chips, but due to recent advancements in processors, the M1 is relatively new and can throw some problems. To fix this, please follow the steps written [in this blog.](https://docs.jina.ai/get-started/install/troubleshooting/#on-mac-m1)
 
 
 # Technical Concepts
@@ -140,8 +140,24 @@ Running Jina in Jupyter notebook and Python are the same. So, you can use Execut
 
 (( Edit by Jina Team: this ranker can help incremental learning. But using a traditional machine learning approach. We could leverage Finetuner to perform feedback collection and model improvement.))
 
-
-
 ## ... Vertex.ai
 
 One significant difference is that Vespa is built based on their vector database while Jina as a framework offers the flexibility to switch between different options.
+
+# 💖 Thank You 
+
+This FAQ sheet has been made possible due to the efforts of our community members: 
+- Sam Joy 
+- Chris Evers 
+- Bandersnatchx64 
+- @sephib 
+- Chuangfeng Wang 
+- Wenxiang Yang 
+- Sungsoo Park 
+- @DmitryKey 
+- Arpita Jena  
+- @JoanFM 
+- @bwanglzu 
+- @ShubhamSaboo 
+- @alexcg 
+- @alt-shreya
