@@ -158,7 +158,7 @@ As in the DocQA example, the first step is pulling candidates and finding out si
 
 # :briefcase: Careers
 - ### How can I get a job/internship at Jina AI?
-  Check out our [career](https://jobs.jina.ai) page!
+  Check out our [careers](https://jobs.jina.ai) page!
 
 # :thinking: Unanswered Questions 
 
