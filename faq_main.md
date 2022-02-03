@@ -1,14 +1,14 @@
 # Quick Links
-- [First Steps](#first-steps)
-- [Technical Concepts](#technical-concepts)
-- [Executors](#executors)
-- [Jina vs...](#jina-vs)
-- [Swag](#gift-swag)
-- [Unanswered Questions](#unanswered-questions)
-- [What if my Question Isn't Listed Here?](#what-if-my-question-isnt-listed-here)
-- [Credits](#sparkling_heart-thank-you)
+- 👶 [First Steps](#baby-first-steps)
+- 📚 [Technical Concepts](#books-technical-concepts)
+- ⚙️ [Executors](#gear-executors)
+- 🤺 [Jina vs...](#person_fencing-jina-vs)
+- 🎁 [Swag](#gift-swag)
+- 🤔 [Unanswered Questions](#thinking-unanswered-questions)
+- 😕 [What if my Question Isn't Listed Here?](#confused-what-if-my-question-isnt-listed-here)
+- 💖 [Credits](#sparkling_heart-thank-you)
 
-# First Steps
+# :baby: First Steps
 
 ## What's the difference between Jina and Jina AI?
 TL;DR: [**Jina AI**](https://jina.ai/) is the organization, [**Jina**](https://docs.jina.ai) is the open source neural search framework. 
@@ -45,7 +45,7 @@ Jina's installation on Macbook can be because of the M1 chip. Jina runs smoothly
 - Plus, we also release some cool stuff on our [blog](https://jina.ai/blog).
 - Also keep an eye out for our workshops and events which we announce on our [Slack community](https://slack.jina.ai).
 
-# Technical Concepts
+# :books: Technical Concepts
 
 ## What is neural search, and why is it important for me?
 
@@ -97,7 +97,7 @@ Of course, some customers use Jina to build a search system for the company's in
 
 You can reduce the size of your indexed data by projecting the embedding to a smaller dimensionality, using pre-trained ResNet results in features represented as 2048d (if you’re using a fully connected layer as an embedding layer). You can further encode it into another dimensionality, such as 512. You can achieve this with Finetuner by adopting a multi-layer perceptron on top of your embedding model. For instance, in this tutorial, we attached a SimpleMLP on top of the embedding model, and the final embedding has been encoded into 1024d, two times smaller than the pre-trained embedding. You can do it in 128/256/512 or any compact representation. This should significantly reduce your embedding size.
 
-# Executors
+# :gear: Executors
 
 ## How can I fetch pre-built Executors from Jina Hub?
 
@@ -139,7 +139,7 @@ If using `jinahub://`, make sure `install_requirements=True` is added to
 
 Running Jina in Jupyter notebook and Python are the same. So, you can use Executors in the notebook the same way you would in your local system.
 
-# Jina vs... 
+# :person_fencing: Jina vs... 
 
 ## ... AWS Kendra
 
@@ -175,7 +175,7 @@ One significant difference is that Vespa is built based on their vector database
 We're working extremely hard to get swag packages delivered to your address in the middle of a pandemic. There may be some delays due to COVID restrictions, and we thank you in advance for your patience as we navigate challenges that come our way due to constantly changing regulations.
 
 
-# Unanswered Questions 
+# :thinking: Unanswered Questions 
 
 We invite all readers to answer some unanswered questions on our [FAQ sheet:](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
 
@@ -190,7 +190,7 @@ We invite all readers to answer some unanswered questions on our [FAQ sheet:](ht
 - Is Jina going to participate in GSoC?
 - Can a non tech background fresher without any coding experience learn Jina? 
 
-# What if my Question Isn't Listed Here?
+# :confused: What if My Question Isn't Listed Here?
 
 We see you've chosen to take [the road less travelled](https://www.poetryfoundation.org/poems/44272/the-road-not-taken). We're here to help you on your way on!
 - First, check out our [docs](https://www.docs.jina.ai) to see if your query is answered by ~~the wisdom of the Prophecy~~ our documentation.
