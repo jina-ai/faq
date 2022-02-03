@@ -177,7 +177,7 @@ We invite all readers to answer some unanswered questions on our [FAQ sheet:](ht
 # :confused: What if My Question Isn't Listed Here?
 
   We see you've chosen to take [the road less travelled](https://www.poetryfoundation.org/poems/44272/the-road-not-taken). We're here to help you on your way!
-  - First, check out our [docs](https://www.docs.jina.ai) to see if your query is answered by ~~the wisdom of the Prophecy~~ our documentation.
+  - First, check out our [docs](https://docs.jina.ai) to see if your query is answered by ~~the wisdom of the Prophecy~~ our documentation.
   - If you still don't find what you're looking for, please list your question on our [FAQ Sheet](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
 
 # :sparkling_heart: Thank You 
