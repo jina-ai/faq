@@ -1,3 +1,12 @@
+# Quick Links
+- [First Steps](#first-steps)
+- [Technical Concepts](#technical-concepts)
+- [Executors](#executors)
+- [Jina vs...](#jina-vs)
+- [Swag](#gift-swag)
+- [Unanswered Questions](#unanswered-questions)
+- [What if my Question Isn't Listed Here?](#what-if-my-question-isnt-listed-here)
+- [Credits](#sparkling_heart-thank-you)
 
 # First Steps
 
@@ -158,7 +167,15 @@ Running Jina in Jupyter notebook and Python are the same. So, you can use Execut
 
 One significant difference is that Vespa is built based on their vector database while Jina as a framework offers the flexibility to switch between different options.
 
-## Unanswered Questions 
+# :gift: Swag
+### How do I get swag?
+### How do I organize a workshop with Jina?
+### How do I write a blog post for Jina?
+### How long will my swag take?/ Why hasn't my swag arrived yet?
+We're working extremely hard to get swag packages delivered to your address in the middle of a pandemic. There may be some delays due to COVID restrictions, and we thank you in advance for your patience as we navigate challenges that come our way due to constantly changing regulations.
+
+
+# Unanswered Questions 
 
 We invite all readers to answer some unanswered questions on our [FAQ sheet:](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
 
@@ -173,13 +190,13 @@ We invite all readers to answer some unanswered questions on our [FAQ sheet:](ht
 - Is Jina going to participate in GSoC?
 - Can a non tech background fresher without any coding experience learn Jina? 
 
-# What if my question isn't listed here?
+# What if my Question Isn't Listed Here?
 
 We see you've chosen to take [the road less travelled](https://www.poetryfoundation.org/poems/44272/the-road-not-taken). We're here to help you on your way on!
 - First, check out our [docs](https://www.docs.jina.ai) to see if your query is answered by ~~the wisdom of the Prophecy~~ our documentation.
 - If you still don't find what you're looking for, please list your question on our [FAQ sheet](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
 
-# 💖 Thank You 
+# :sparkling_heart: Thank You 
 
 This FAQ sheet has been made possible due to the efforts of our community members: 
 - Sam Joy 
@@ -200,5 +217,5 @@ This FAQ sheet has been made possible due to the efforts of our community member
 - @alexcg 
 - @alt-shreya
 
-# There's an issue with the FAQ:
+## There's an Issue with this Document
  Missing link? Notice a typo? Create an issue! [check out our contributing guidelines to know how](https://github.com/jina-ai/jina/blob/master/CONTRIBUTING.md#-bugs-and-issues)
