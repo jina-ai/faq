@@ -1,5 +1,13 @@
-# Installation
 
+# First Steps
+
+## What's the difference between Jina and Jina AI?
+TL;DR: [**Jina AI**](https://jina.ai/) is the organization, [**Jina**](https://docs.jina.ai) is the open source neural search framework. 
+
+[Jina AI](https://jina.ai/) is a neural search organization that delivers SOTA neural search solutions, namely:
+- [Jina](https://docs.jina.ai) : a neural search framework that empowers anyone to build SOTA and scalable deep learning search applications in minutes
+- [Finetuner](https://finetuner.jina.ai) : allows you to tune the weights of any deep neural network for better embeddings on search tasks
+- [DocArray](https://docarray.jina.ai) : a Python library for nested, unstructured data in transit, including text, image, audio, video, 3D mesh, etc
 
 ## How do I Install Jina?
 
@@ -21,6 +29,12 @@ If there is scope for options, please try using a Virtual Machine for Ubuntu on 
 
 Jina's installation on Macbook can be because of the M1 chip. Jina runs smoothly on Macbooks with Intel chips, but due to recent advancements in processors, the M1 is relatively new and can throw some problems. To fix this, please follow the steps written [in this blog.](https://docs.jina.ai/get-started/install/troubleshooting/#on-mac-m1)
 
+## What are some of the good resources for a beginner to learn about Jina?
+
+- Try our [bootcamp](https://learn.jina.ai/).
+- Go through our [detailed docs](https://docs.jina.ai).
+- Plus, we also release some cool stuff on our [blog](https://jina.ai/blog).
+- Also keep an eye out for our workshops and events which we announce on our [Slack community](https://slack.jina.ai).
 
 # Technical Concepts
 
@@ -40,7 +54,7 @@ Intermediate Python and a working laptop. While previous knowledge of ML and AI 
 
 ## What is the quickest way to experience the power of Jina?
 
-By running Jina's quick demos. These examples are easy to understand and help users to experience the power of Jina. [Try our example](https://docs.jina.ai/get-started/hello-world/). For users who have difficulties running the examples, please feel free to message us on #support in our Slack channel!
+By running Jina's quick demos. These examples are easy to understand and help users to experience the power of Jina. [Try our example](https://docs.jina.ai/get-started/hello-world/). For users who have difficulties running the examples, please feel free to message us on #support in our [Slack channel](https://slack.jina.ai)!
 
 ## Where can I find pre-built examples made with Jina?
 
@@ -144,6 +158,15 @@ Running Jina in Jupyter notebook and Python are the same. So, you can use Execut
 
 One significant difference is that Vespa is built based on their vector database while Jina as a framework offers the flexibility to switch between different options.
 
+## Unanswered Questions 
+
+
+# What if my question isn't listed here?
+
+We see you've chosen to take [the road less travelled](https://www.poetryfoundation.org/poems/44272/the-road-not-taken). We're here to help you on your way on!
+- First, check out our [docs](https://www.docs.jina.ai) to see if your query is answered by ~~the wisdom of the Prophecy~~ our documentation.
+- If you still don't find what you're looking for, please list your question on our [FAQ sheet](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
+
 # 💖 Thank You 
 
 This FAQ sheet has been made possible due to the efforts of our community members: 
@@ -155,9 +178,15 @@ This FAQ sheet has been made possible due to the efforts of our community member
 - Wenxiang Yang 
 - Sungsoo Park 
 - @DmitryKey 
-- Arpita Jena  
+- Arpita Jena
+- Manya Tuli
+- Swapna Devi
+- Deep Shikha  
 - @JoanFM 
 - @bwanglzu 
 - @ShubhamSaboo 
 - @alexcg 
 - @alt-shreya
+
+# There's an issue with the FAQ:
+ Missing link? Notice a typo? Create an issue! [check out our contributing guidelines to know how](https://github.com/jina-ai/jina/blob/master/CONTRIBUTING.md#-bugs-and-issues)
