@@ -160,6 +160,18 @@ One significant difference is that Vespa is built based on their vector database
 
 ## Unanswered Questions 
 
+We invite all readers to answer some unanswered questions on our [FAQ sheet:](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
+
+- What's the difference between shards and replicas? When should I use each?
+- What database backends does Jina support?
+- How to run the local server in colab？
+- How to return some data for a flow, and the data is Irrelevant with any input docs?
+- if I cascade several Executors in a flow, then which endpoint will use in these Executors for a request posting to a specifial gateway?
+- I noticed Executors only receive docs of type DocumentArray as the first parameter. Will subclasses be supported in the future?
+- What are some alternatives to embed_feature_hashing that we could use [in this example?](https://docarray.jina.ai/datatypes/text/#simple-text-matching-via-feature-hashing)
+- On fashion-Mnist dataset, is it possible to add additional cloth images [on this repository](https://github.com/zalandoresearch/fashion-mnist)? What would happen if users delete some clothes on fashion-Mnist dataset?
+- Is Jina going to participate in GSoC?
+- Can a non tech background fresher without any coding experience learn Jina? 
 
 # What if my question isn't listed here?
 
