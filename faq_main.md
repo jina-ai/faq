@@ -206,4 +206,4 @@ This FAQ Document has been made possible due to the efforts of our community mem
 - @joeyouss
 
 ## There's an Issue with This Document
-Missing link? Notice a typo? Create an issue! [check out our contributing guidelines to know how](https://github.com/jina-ai/jina/blob/master/CONTRIBUTING.md#-bugs-and-issues)
+Missing link? Notice a typo? Create an issue! [Check out our contributing guidelines to know how](https://github.com/jina-ai/jina/blob/master/CONTRIBUTING.md#-bugs-and-issues)
