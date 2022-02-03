@@ -151,7 +151,7 @@ As in the DocQA example, the first step is pulling candidates and finding out si
 
 # :gift: Swag
  - ### How do I get swag?
-   Please check out this blog: https://jina.ai/blog/swag/. After you have done the necessary steps, we will reach out for delivery addresses. Remember to make your certificates public (via social media) and tag Jina!.
+   Please [check out this blog](https://jina.ai/blog/swag/). After you have done the necessary steps, we will reach out for delivery addresses. Remember to make your certificates public (via social media) and tag Jina!.
  - ### How do I organize a workshop with Jina?
    Currently, most of the external community engagement with Jina is handled by Jyoti Bisht. Please send an email to jyoti.bisht@jina.ai or reach out on [Linkedin](https://www.linkedin.com/in/jyoti-bisht-9299181b1/) or [Twitter](https://twitter.com/joeyousss).
  - ### How do I write a blog post for Jina?
