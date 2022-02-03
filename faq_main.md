@@ -154,8 +154,8 @@ As in the DocQA example, the first step is pulling candidates and finding out si
    Please [check out this blog](https://jina.ai/blog/swag/). After you have done the necessary steps, we will reach out for delivery addresses. Remember to make your certificates public (via social media) and tag us!.
  - ### How do I organize a workshop with Jina AI?
    Currently, most of the external community engagement with Jina AI is handled by Jyoti Bisht. Please send an email to jyoti.bisht@jina.ai or reach out on [Linkedin](https://www.linkedin.com/in/jyoti-bisht-9299181b1/) or [Twitter](https://twitter.com/joeyousss).
- - ### How do I write a blog post for Jina?
-   Thanks for showing interest in writing a blog for Jina. Nothing excites us more than community contributions. Send a message in Slack with your blog idea and where do you think you might publish it. Our team will reach out to you and reply to the thread. Also, if you are writing a blog, please follow our [writing style guide](https://docs.google.com/document/d/1FA7EHVPvfiIYJreffpaOQZf_FQnP3jFsy8cT73VsYPU/edit) to make sure there are no errors/violations.
+ - ### How do I write a blog post for Jina AI?
+   Thanks for showing interest in writing a blog for Jina AI. Nothing excites us more than community contributions. Send a message in Slack with your blog idea and where do you think you might publish it. Our team will reach out to you and reply to the thread. Also, if you are writing a blog, please follow our [writing style guide](https://docs.google.com/document/d/1FA7EHVPvfiIYJreffpaOQZf_FQnP3jFsy8cT73VsYPU/edit) to make sure there are no errors/violations.
  - ### How long will my swag take?/ Why hasn't my swag arrived yet?
    We're working extremely hard to get swag packages delivered to your address in the middle of a pandemic. There may be some delays due to COVID restrictions, and we thank you in advance for your patience as we navigate challenges that come our way due to constantly changing regulations. 
    
