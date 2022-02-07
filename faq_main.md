@@ -1,189 +1,159 @@
-# 🔗 Quick Links
-- ### 👶 [First Steps](#baby-first-steps)
-- ### 📚 [Technical Concepts](#books-technical-concepts)
-- ### ⚙️ [Executors](#gear-executors)
-- ### 🤺 [Jina vs...](#person_fencing-jina-vs)
-- ### 🎁 [Swag](#gift-swag)
-- ### 💼 [Careers](#briefcase-careers)
-- ### 🤔 [Unanswered Questions](#thinking-unanswered-questions)
-- ### 😕 [What if my Question Isn't Listed Here?](#confused-what-if-my-question-isnt-listed-here)
-- ### 💖 [Thank You](#sparkling_heart-thank-you)
-<br>
+# Jina FAQ
 
-# :baby: First Steps
+## Understanding neural search and Jina
 
- - ### What's the difference between Jina and Jina AI?
-      TL;DR: [**Jina AI**](https://jina.ai/) is the organization, [**Jina**](https://docs.jina.ai) is the open source neural search framework. 
+### What is neural search, and why is it important for me?
 
-      [Jina AI](https://jina.ai/) is a neural search organization that delivers SOTA neural search solutions, namely:
-      - [Jina](https://docs.jina.ai): a neural search framework that empowers anyone to build SOTA and scalable deep learning search applications in minutes.
-      - [Finetuner](https://finetuner.jina.ai): allows you to tune the weights of any deep neural network for better embeddings on search tasks.
-      - [DocArray](https://docarray.jina.ai): a Python library for nested, unstructured data in transit, including text, image, audio, video, 3D mesh, etc.
+[Neural search](https://docs.jina.ai/get-started/neural-search) leverages the power of deep neural networks to build search systems. Think of any great search engine you have ever used like Google. Even Google uses AI and neural networks to make its search effective. We, as developers, sometimes want to create intelligent search systems, so neural search comes into the picture. [Jina's neural search framework](https://get.jina.ai) helps you build exactly these kinds of search systems.
 
-## Installation
- - ### How do I Install Jina?
+### What's the quickest way to play with Jina and neural search?
 
-   Jina can be installed primarily in three ways:
-   - via PyPI: `pip install -U jina` 
-   - via Docker: `docker run jinaai/jina:latest`
-   - via conda: `conda install jina -c conda-forge` 
+By playing around with [Jina's examples](https://examples.jina.ai) and getting hands-on. All code is available in open-source repos for you to fork and tweak as needed
 
-   For more details about installing Jina, [visit our Docs.](https://docs.jina.ai/get-started/install/)
+### What are the prerequisites of getting started with Jina?/ 
+### Can I use Jina if I only know Javascript/language X? / 
+### Can a non-tech background fresher without any coding experience learn Jina?
 
- - ### Is Jina compatible with Windows?
+To use Jina you'll need only intermediate-level Python and a working PC or Mac. Previous knowledge of ML and AI is a plus, but it's not a requirement. We want Jina to be of use to even the newest people in this field, and that's why the implementation is as simple as possible for developers who want to make neural search systems.
 
-   As of the moment, Jina runs smoothly with Mac and Linux but gives some problems in Windows due to the non-TTY nature of the operating system. 
-   We recommend installing WSL and then running Jina for the benefit of running a Linux distribution. If there is scope for options, please try using a Virtual Machine for    Ubuntu on Windows to experience minimum difficulties.
+### Where can I learn about Jina as a beginner?
 
- - ### Jina installation causing a problem on Macbook?
+- Try our [bootcamp](https://learn.jina.ai/).
+- Go through our [detailed docs](https://docs.jina.ai).
+- Read posts on our [blog](https://jina.ai/blog).
+- Keep an eye out for our workshops and events, which we announce on our [Slack community](https://slack.jina.ai) and [Meetup group](https://www.meetup.com/jina-community-meetup/).
 
-   Jina's installation on Macbook can be because of the M1 chip. Jina runs smoothly on Macbooks with Intel chips, but due to recent advancements in processors, the M1 is relatively new and can throw some problems. Please follow the steps written [in this blog.](https://docs.jina.ai/get-started/install/troubleshooting/#on-mac-m1)
+## Installing Jina
 
-## Prerequisites
+Jina can be installed in three ways:
 
- - ### What are the prerequisites of getting started with Jina?/ 
-   ### Can I use Jina if I only know Javascript/language X? / 
-   ### Can a non-tech background fresher without any coding experience learn Jina?
+- via PyPI: `pip install -U jina` 
+- via Docker: `docker run jinaai/jina:latest`
+- via conda: `conda install jina -c conda-forge` 
 
-   Prerequisites: Intermediate Python and a working laptop. While previous knowledge of ML and AI is a plus, it is not a required attribute. We want Jina to be of use to even the newest people in this field, and that's why the implementation is as simple as possible for developers who want to make sound search systems.
+For more details about installing Jina, [visit our Docs.](https://docs.jina.ai/get-started/install/)
 
-## Resources
- - ### What are some good resources for a beginner to learn about Jina?
+### ...on Windows
 
-   - Try our [bootcamp](https://learn.jina.ai/).
-   - Go through our [detailed docs](https://docs.jina.ai).
-   - Plus, we also release some cool stuff on our [blog](https://jina.ai/blog).
-   - Also, keep an eye out for our workshops and events, which we announce on our [Slack community](https://slack.jina.ai).
+We recommend installing [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install) and running Jina from there. Alternatively, you could try a VM like [Virtualbox](https://www.virtualbox.org/) running a recent Linux distribution.
 
-# :books: Technical Concepts
+### ...on Mac
 
- - ### What is neural search, and why is it important for me?
+You may have trouble installing or using Jina on your Mac if you have a newer model with an M1 chip. Please follow the steps written [in this blog.](https://docs.jina.ai/get-started/install/troubleshooting/#on-mac-m1)
 
-   Neural search leverages the power of deep neural networks to build search systems. Think of any great search engine you have ever used like Google. Even Google uses AI and neural networks to make its search effective. We, as developers, sometimes want to create intelligent search systems, so neural search comes into the picture. 
 
-   [Read more about neural search.](https://docs.jina.ai/get-started/neural-search)
+## Building your search engine
 
- - ### What is the quickest way to experience the power of Jina?
+### What are the basic concepts I need to know to build a simple working application?
 
-   By running Jina's quick demos. These examples are easy to understand and help users to experience the power of Jina. [Try our example](https://docs.jina.ai/get-started/hello-world/). For users who have difficulties running the examples, please feel free to message us on #support in our [Slack channel](https://slack.jina.ai)!
+You need to know [three simple concepts](https://docs.jina.ai/fundamentals/concepts/) to build a simple working application: 
 
- - ### Where can I find pre-built examples made with Jina?
+- Document: Jina's primitive data type
+- Executor: Perform simple tasks on Documents, like splitting into chunks, encoding into vectors, storing in an index, etc
+- Flow: Ties Executors together and lets you scale and serve your neural search application
 
-   [We're always a link away.](http://examples.jina.ai/)
+### Is a neural search system built with Jina compatible with the traditional search system?
 
- - ### What are the basic concepts I need to know to build a simple working application?
-
-   You need to know three simple concepts to build a simple working application. They are Document, Executors, and Flow. Document is the most basic data type in Jina. Executors allow you to do tasks on the Document. And Flow is used for tying executors into a pipeline to perform more significant tasks. You can learn all about them and [see examples here.](https://docs.jina.ai/fundamentals/concepts/)
-
- - ### Is the neural search system built with Jina compatible with the traditional search system?
-
-   You can fully integrate a traditional search system with Jina. 
+You can fully integrate a traditional search system with Jina. 
 As in the DocQA example, the first step is pulling candidates and finding out similar passages by vector indexing. The second step is to use a more computationally intensive deep learning model to find the needed answers from the passages.
 
-   When doing the recall in the first step, you can use the method based on vector index or TF-IDF or bm25, so it is entirely possible to use the traditional inverted index to recall Jina.
+When doing the recall in the first step, you can use the method based on vector index or TF-IDF or bm25, so it is entirely possible to use the traditional inverted index to recall Jina.
 
+### How much computational resources are needed?
 
- - ### If I want to build a neural search system with Jina, how much computational resources are needed?
+The resources required to build a neural search system with Jina depend on the business requirements, such as data volume, stability requirements, required response time, etc.
 
-   The resources required to build a neural search system with Jina depend on the business requirements, such as data volume, stability requirements, required response time, etc.
+The CPU can cope with lesser data volume( up to one million) for a single data type. It is necessary to use GPU for applications with larger data volume - such as retrieving hundreds of millions of videos and requiring millisecond-level feedback.
 
-  The CPU can cope with lesser data volume( up to one million) for a single data type. It is necessary to use GPU for applications with larger data volume - such as retrieving hundreds of millions of videos and requiring millisecond-level feedback.
+### Can we use Jina to search specific content in PDFs?
 
- - ### Can we use Jina to search specific content in PDF?
+Of course, some customers use Jina to build a search system for the company's internal resources searching, including PDF search, through the text directly searching the relevant semantic content, or through the text to match the images in the PDF.
 
-   Of course, some customers use Jina to build a search system for the company's internal resources searching, including PDF search, through the text directly searching the relevant semantic content, or through the text to match the images in the PDF.
+### My indexed data is taking up too much storage. How can I reduce the size?
 
- - ### My indexed data size became too big. How can I reduce the size of indexing data?
+You can reduce the size of your indexed data by projecting the embedding to a smaller dimensionality, using pre-trained ResNet results in features represented as 2048d (if you're using a fully connected layer as an embedding layer). You can further encode it into another dimensionality, such as 512. You can achieve this with Finetuner by adopting a multi-layer perceptron on top of your embedding model. For instance, in this tutorial, we attached a SimpleMLP on top of the embedding model, and the final embedding has been encoded into 1024d, two times smaller than the pre-trained embedding. You can do it in 128/256/512 or any compact representation. This should significantly reduce your embedding size.
 
-   You can reduce the size of your indexed data by projecting the embedding to a smaller dimensionality, using pre-trained ResNet results in features represented as 2048d (if you're using a fully connected layer as an embedding layer). You can further encode it into another dimensionality, such as 512. You can achieve this with Finetuner by adopting a multi-layer perceptron on top of your embedding model. For instance, in this tutorial, we attached a SimpleMLP on top of the embedding model, and the final embedding has been encoded into 1024d, two times smaller than the pre-trained embedding. You can do it in 128/256/512 or any compact representation. This should significantly reduce your embedding size.
+## Using Executors
 
-# :gear: Executors
+### How can I use pre-built Executors?
 
- - ### How can I fetch pre-built Executors from Jina Hub?
+We provide three ways of using pre-built Executors from [Jina Hub](https://hub.jina.ai). The first way is using the Executor, the second way is used in a Flow via Docker, and the third way is used in a Flow via the source code. [Visit here to see the code snippets and understand the syntax](https://docs.jina.ai/advanced/hub/use-hub-executor/).
 
-   We provide three ways of using pre-build Executors from the Jina Hub. The first way is using the Executor, the second way is used in a Flow via Docker, and the third way is used in a Flow via the source code. [Visit here to see the code snippets and understand the syntax](https://docs.jina.ai/advanced/hub/use-hub-executor/).
+###  How can I share my Executors with others?
 
+Executors can be shared by pushing them onto [Jina Hub.](https://hub.jina.ai/). You can choose to share your Executors either publicly or privately. 
+By default, Executors are public, but you can make them private by a `secret`. Only people who have the `secret` can access private Executors. If no `--public` or `--private` argument is provided, the Executor is public by default.
 
- - ###  How to upload my Executor on Jina Hub?
+### How can I remove my Executor from Jina Hub?
+Once published to Jina Hub, Executors cannot be deleted or removed since Jina Hub is a shared space. We suggest re-pushing your Executor with the `--private` argument to remove it from public view.
 
-   Jina Hub allows users to publish and share their Executors.
+### Jina Hub Executors are failing to load. What should I do?
+It can be because of a connection issue (VPN), and reloading should fix it. 
+- If you use `jinahub://`, make sure `install_requirements=True` is added to ````.add(uses='jinahub://Executor, install_requirements=True)````. 
+- If you use `jinahub+docker//`, make sure sufficient Docker resources are allocated. 
 
- - ###  How do I share Executor with my colleague sitting in another part of the world?
+###  How can I use Jina Hub Executors in a Jupyter Notebook or Google Colab?
+Running Jina in Jupyter notebook and Python are the same. So, you can use Executors in the notebook the same way you would in your local system.
 
-   Executors can be shared by pushing them onto [Jina Hub.](https://hub.jina.ai/). You can choose to share your Executors either publicly or privately. 
-   By default, Executors are public, but you can make them private by a `secret`. Only people having the `secret` can access the private Executors. If no `--public` or `--private` argument is provided, it is public by default.
+## Workshops and swag
 
- - ### How can I remove Executor pushed to Jina Hub?
-   Once published to Jina Hub, Executors cannot be deleted or removed since Jina Hub is a shared space.
+### How do I get swag?
 
- - ### Jina Hub Executors are failing to load. What should I do?
-   It can be because of a connection issue (VPN), and reloading should fix it. 
-   If using `jinahub://`, make sure `install_requirements=True` is added to ````.add(uses='jinahub://Executor, install_requirements=True)````. 
-   If using `jinahub+docker//`, make sure sufficient docker resources are allocated. 
+[Check out this blog](https://jina.ai/blog/swag/). After you have performed the necessary steps, we will reach out for delivery addresses. Remember to make your certificates public (via social media) and tag us!
 
- - ###  How can I use Jina Hub Executors in Jupyter Notebook?
-   Running Jina in Jupyter notebook and Python are the same. So, you can use Executors in the notebook the same way you would in your local system.
+### How long will my swag take?/ Why hasn't my swag arrived yet?
 
-# :person_fencing: Jina vs... 
+We're working extremely hard to get swag packages delivered to your address in the middle of a pandemic. There may be some delays due to COVID restrictions, and we thank you in advance for your patience as we navigate challenges that come our way due to constantly changing regulations. 
 
-## ... AWS Kendra
+### How do I organize a workshop with Jina AI?
 
-- AWS Kendra is an AWS-service-only, and so it has a solid lock-in to the "cloud-only" AWS infrastructure. You have a free-tier version, but it's limited to 3GB of data, so you can't really "play with it" from a docker image and go from there; Kendra has stricter limitations. Enterprise version is limited to 5 indexes and 500.000 documents or 150GB of text (per node?); You can run Jina on AWS on the other side, and it's Open Source.
+Please send an email to devrel@jina.ai or reach out on [Twitter](https://twitter.com/jinaai_).
 
-- Kendra seems to cover only text search (NLP), whereas Jina also covers image or media search (multi-modal).
+### How do I write a blog post for Jina AI?
 
-- Jina is an end-to-end search system. You can use Jina to extract semantic embedding, store them, search them, and return them to a user. Kendra doesn't seem to cover the whole pipeline. For example, I can't see any front end interface like Jina Box;
+Thanks for showing interest in writing a blog for Jina AI. Nothing excites us more than community contributions. Send a message in Slack with your blog idea and where do you think you might publish it. Our team will reach out to you and reply to the thread. Also, if you are writing a blog, please follow our [writing style guide](https://docs.google.com/document/d/1FA7EHVPvfiIYJreffpaOQZf_FQnP3jFsy8cT73VsYPU/edit) to make sure there are no errors/violations.
 
-- Both Kendra and Jina use distributed node architecture. But the Kendra granularity of settings (user access, security management, etc.) coming with the whole AWS architecture is more advanced at this stage than Jina;
+## Working for Jina AI
 
-- In Jina, you can distribute various aspects of your training pipeline on other machines. This would demand another pipeline of AWS services (Sagemaker, etc.) on the Amazon platform. Note: you could also add a GPU for all your embedding creation on Jina;
+### How can I get a job/internship at Jina AI?
 
-- With Jina, you can use Jina Hub. A community collection of pre-build custom apps. You can plug and play with some of the latest AI research here. Kendra has only [third-party connectors](https://aws.amazon.com/kendra/connectors/) but not customizable packages;
+Check out our [careers](https://jobs.jina.ai) page!
 
-- Kendra comes with 14 custom pre-trained models. Jina has its hub community platform and integrates with HuggingFace directly. With just one line of code in your YAML file, you can pull any of their pre-trained models. This is a huge benefit in terms of customizations and possibilities. The latest research from Facebook/Google is added daily to the HuggingFace community system. I don't know how you could do this with Kendra;
+## Miscellaneous
 
-- Jina supports user-provided ML models, but it also supports community-integrated models;
+### Is it Jina? Jina AI? jina.ai?
 
-- Kendra has a user feedback loop integrated to do incremental learning. I guess it's possible to [add this to Jina with](https://github.com/jina-ai/jina-hub/tree/master/rankers/LightGBMRanker) probably, but it's not integrated at this stage. This ranker can help incremental learning. But using a traditional machine learning approach. We could leverage Finetuner to perform feedback collection and model improvement.
+- [**Jina AI**](https://jina.ai/) is the organization
+- [**Jina**](https://get.jina.ai) is Jina AI's open source neural search framework. 
+- [**jina.ai**](https://jina.ai) is Jina AI's company website
 
-## ... Vertex.ai
-   One significant difference is that Vespa is built based on their vector database while Jina as a framework offers the flexibility to switch between different options.
+Also, we're not JinaAI, Gina, Jina-AI or any other variation
 
-# :gift: Swag
- - ### How do I get swag?
-   Please [check out this blog](https://jina.ai/blog/swag/). After you have done the necessary steps, we will reach out for delivery addresses. Remember to make your certificates public (via social media) and tag us!
- - ### How do I organize a workshop with Jina AI?
-   Currently, most of the external community engagement with Jina AI is handled by Jyoti Bisht. Please send an email to jyoti.bisht@jina.ai or reach out on [Linkedin](https://www.linkedin.com/in/jyoti-bisht-9299181b1/) or [Twitter](https://twitter.com/joeyousss).
- - ### How do I write a blog post for Jina AI?
-   Thanks for showing interest in writing a blog for Jina AI. Nothing excites us more than community contributions. Send a message in Slack with your blog idea and where do you think you might publish it. Our team will reach out to you and reply to the thread. Also, if you are writing a blog, please follow our [writing style guide](https://docs.google.com/document/d/1FA7EHVPvfiIYJreffpaOQZf_FQnP3jFsy8cT73VsYPU/edit) to make sure there are no errors/violations.
- - ### How long will my swag take?/ Why hasn't my swag arrived yet?
-   We're working extremely hard to get swag packages delivered to your address in the middle of a pandemic. There may be some delays due to COVID restrictions, and we thank you in advance for your patience as we navigate challenges that come our way due to constantly changing regulations. 
-   
-# :briefcase: Careers
-- ### How can I get a job/internship at Jina AI?
-  Check out our [careers](https://jobs.jina.ai) page!
+### How do I pronounce Jina?
 
-# :thinking: Unanswered Questions 
+- **Correct**: Roughly, like *jee-na* with the emphasis on the *jee*. Or exactly the way the name "Gina" is pronounced in English.
+- **Incorrect**: *jy-na*, *jee-NA*
 
-We invite all readers to answer some unanswered questions on our [FAQ sheet:](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
+## :thinking: Unanswered Questions 
 
-- #### What's the difference between shards and replicas? When should I use each?
-- #### What database backends does Jina support?
-- #### How to run the local server in Colab？
-- #### How to return some data for a flow, and the data is Irrelevant with any input docs?
-- #### If I cascade several Executors in a flow, then which endpoint will use in these Executors for a request posting to a specific gateway?
-- #### I noticed Executors only receive docs of type DocumentArray as the first parameter. Will subclasses be supported in the future?
-- #### What are some alternatives to embed_feature_hashing that we could use [in this example?](https://docarray.jina.ai/datatypes/text/#simple-text-matching-via-feature-hashing)
-- #### On fashion-MNIST dataset, is it possible to add additional cloth images [on this repository](https://github.com/zalandoresearch/fashion-mnist)? What would happen if users deleted some clothes on the fashion-MNIST dataset?
-- #### Is Jina going to participate in GSoC? 
+We invite you to answer some unanswered questions on our [FAQ sheet:](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
 
-# :confused: What if My Question Isn't Listed Here?
+- What's the difference between shards and replicas? When should I use each?
+- What database backends does Jina support?
+- How to run the local server in Colab？
+- How to return some data for a flow, and the data is Irrelevant with any input docs?
+- If I cascade several Executors in a flow, then which endpoint will use in these Executors for a request posting to a specific gateway?
+- I noticed Executors only receive docs of type DocumentArray as the first parameter. Will subclasses be supported in the future?
+- What are some alternatives to embed_feature_hashing that we could use [in this example?](https://docarray.jina.ai/datatypes/text/#simple-text-matching-via-feature-hashing)
+- Is Jina going to participate in GSoC? 
 
-  We see you've chosen to take [the road less travelled](https://www.poetryfoundation.org/poems/44272/the-road-not-taken). We're here to help you on your way!
-  - First, check out our [docs](https://docs.jina.ai) to see if your query is answered by ~~the wisdom of the Prophecy~~ our documentation.
-  - If you still don't find what you're looking for, please list your question on our [FAQ Sheet](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
+## :confused: What if My Question Isn't Listed Here?
 
-# :sparkling_heart: Thank You 
+We see you've chosen to take [the road less travelled](https://www.poetryfoundation.org/poems/44272/the-road-not-taken). We're here to help you on your way!
+- First, check out our [docs](https://docs.jina.ai) to see if your query is answered by ~~the wisdom of the Prophecy~~ our documentation.
+- If you still don't find what you're looking for, please list your question on our [FAQ Sheet](https://docs.google.com/spreadsheets/d/1H6-Ysv293azuWM8DlYTXTkNakG_VWHAqbcTCjM2bM1k/edit#gid=0)
+
+## :sparkling_heart: Thank You 
 
 This FAQ Document has been made possible due to the efforts of our community members: 
 - Sam Joy 
@@ -206,4 +176,5 @@ This FAQ Document has been made possible due to the efforts of our community mem
 - @joeyouss
 
 ## There's an Issue with This Document
+
 Missing link? Notice a typo? Create an issue! [Check out our contributing guidelines to know how](https://github.com/jina-ai/jina/blob/master/CONTRIBUTING.md#-bugs-and-issues)
