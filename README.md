@@ -1,1 +1,1 @@
-# faq-jina-ai
+# Frequently Asked Questions
