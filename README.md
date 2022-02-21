@@ -13,8 +13,7 @@ Keep issue titles short and descriptive. Check out [this guide](https://medium.c
 Add additional details in the comments, such as screenshots, operating system details, etc.
 
 ### Answering a question:
-You can filter by experience level. The questions are categorized as follows:
-[good first issues](https://github.com/alt-shreya/faq-jina-ai/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) : beginner level issues
+You can filter by experience level. We even have some [good first issues](https://github.com/alt-shreya/faq-jina-ai/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) to filter beginner level issues.
 Add your answer as a comment and tag @alt-shreya in the same comment as a reviewer
 
 ## Where is it going to be published?
