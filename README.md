@@ -16,6 +16,8 @@ Add additional details in the comments, such as screenshots, operating system de
 You can filter by experience level. We even have some [good first issues](https://github.com/alt-shreya/faq-jina-ai/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) to filter questions for beginners.
 To answer, just add your answer as a comment and tag @alt-shreya in the same comment as a reviewer
 
-## Where is it going to be published?
-On the [FAQ section on our website](https://learn.jina.ai/faq).
+## What's in it for You?
+The most frequently aksed questions will be featured on the [official FAQ section on our website](https://learn.jina.ai/faq).
+We will feature your contributions on the FAQ page and give you a shoutout on our socials!
+
 
