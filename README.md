@@ -17,7 +17,6 @@ You can filter by experience level. We even have some [good first issues](https:
 To answer, just add your answer as a comment.
 
 ## What's in it for You?
-The most frequently aksed questions will be featured on the [official FAQ section on our website](https://learn.jina.ai/faq).
-We will feature your contributions on the FAQ page and give you a shoutout on our socials!
+The most frequently aksed questions will be featured on the [official FAQ section on our website](https://learn.jina.ai/faq). We will feature your username on the FAQ page and also give you a shoutout on our socials!
 
 
