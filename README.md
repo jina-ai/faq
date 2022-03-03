@@ -17,4 +17,4 @@ You can filter by experience level. We even have some [good first issues](/../..
 To answer, just add your answer as a comment.
 
 ## What's in it for You?
-The most frequently asked questions will be featured on our website's [official FAQ section](https://learn.jina.ai/faq). We will feature your username on the FAQ page and give you a shoutout on our socials!
+The most frequently asked questions will be featured on our website's [official FAQ section](https://learn.jina.ai/faq). We'll feature your username on the FAQ page and give you a shoutout on our socials!
